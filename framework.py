@@ -17,7 +17,7 @@ class Agent:
 
 
 
-class SequentionDeliberation:
+class SequentialDeliberation:
     def __init__(numAgents, decisionSpace, bargainFn, seed=0):
         self.agents = [Agent() for i in range(numAgents)]
         self.decisionSpace = decisionSpace
