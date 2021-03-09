@@ -78,6 +78,6 @@ def nashBargain(u, v, a):
 
 
 
-sd = SequentialDeliberation(1000, DiscretizedDecisionSpace(0.1), nashBargain)
+sd = SequentialDeliberation(1000, DiscretizedDecisionSpace(0.001), nashBargain)
 a = sd.deliberate(10)
 print(a)
