@@ -1,0 +1,12 @@
+num_agents: 300
+num_alternatives: 50
+horizon: 10
+num_simulations: 1000
+plot_interval: 100
+gen_delib: False
+num_types: 3
+bargain_dev: 0.1
+run_name: exp_2
+Distortion = 1.1559057541435342+/-0.22663520472807458
+Imp Distortion = 1.2433058936298154+/-0.2768987427132917
+Bgn Distortion = 1.158605603332097+/-0.23321235526667417
